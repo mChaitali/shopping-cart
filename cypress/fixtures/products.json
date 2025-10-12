@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "title": "Mock Product 1",
+      "price": 29.99,
+      "description": "A great product",
+      "category": "men's clothing",
+      "image": "https://placeholder.com/test",
+      "rating": {
+        "rate": 4.5,
+        "count": 100
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mock Product 2",
+      "price": 59.99,
+      "description": "Another great product",
+      "category": "women's clothing",
+      "image": "https://placeholder.com/test",
+      "rating": {
+        "rate": 3.8,
+        "count": 50
+      }
+    }
+  ]
+  
