@@ -186,4 +186,3 @@ describe("Product listing page", () => {
       });
 
   });
-  
