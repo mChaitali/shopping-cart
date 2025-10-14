@@ -48,4 +48,4 @@ describe("Header Component", () => {
         render(<Header onCartClick={mockOnCartClick} />)
         expect(screen.queryByText("5")).toBeInTheDocument();
     })
-})
+});
