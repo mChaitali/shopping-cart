@@ -11,6 +11,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - run: docker build . -t mchaitali/shopping-cart
+    - run: docker build . -t chaitalimane/shopping-cart
     - run: echo "${{secrets.DOCKERHUB_PASSWORD}}" | docker login -u ${{secrets.DOCKERHUB_USERNAME}} --password-stdin
-    - run: docker push mchaitali/shopping-cart
+    - run: docker push chaitalimane/shopping-cart
